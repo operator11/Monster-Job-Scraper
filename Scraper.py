@@ -23,5 +23,7 @@ all_jobs = driver.find_elements_by_class_name('summary')
 for job in all_jobs:
  print(job.text)
 
+driver.get("localhost:8080/job/Monster%20Job%20Scraper/build?token=1234567891")
+
 
 
